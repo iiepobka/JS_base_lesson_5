@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #a00a0a;
+}
+
+.letters_top {
+  width: 50px;
+  height: 32px;
+  text-align: center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #e6e65a;
+}
+
+.cells_white {
+  border: 1px solid #e6e65a;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: #e6e65a;
+}
+
+.cells_black {
+  border: 1px solid #e6e65a;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: #a00a0a;
+}
+
+.numbers_left {
+  width: 32px;
+  height: 50px;
+  text-align: center;
+  color: #e6e65a;
+}
+
+.numbers_right {
+  width: 32px;
+  height: 50px;
+  text-align: center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #e6e65a;
+}
+
+.letters_bottom {
+  width: 50px;
+  height: 32px;
+  text-align: center;
+  color: #e6e65a;
+}
+
+.black_figures {
+  font-weight: 900;
+  color: black;
+}
+
+.white_figures {
+  font-weight: 900;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
