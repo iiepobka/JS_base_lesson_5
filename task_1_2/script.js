@@ -8,7 +8,6 @@ function genChessDesk() {
     document.querySelector('body').insertAdjacentHTML('afterbegin', '<table class="table"></table>');
     let conteinerTrTd = document.querySelector('.table');
     conteinerTrTd.innerHTML = '';
-    let cell = [];
 
     drawDesk();
 
@@ -22,7 +21,6 @@ function genChessDesk() {
                 getRandorDesksElements(i, j, td);
                 getRandorDesksFigures(i, j, td);
                 tr.appendChild(td);
-                cell.push(td);
             }
         }
     }
@@ -80,8 +78,4 @@ function genChessDesk() {
 
 }
 
-genChessDesk()
-
-
-
-
+genChessDesk();
