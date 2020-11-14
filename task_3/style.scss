@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600; 
+  width: 1200px;
+  margin: 0 auto;  
+}
+
+.button {
+  display: flex;
+  box-sizing: border-box;
+  margin: 20px auto;
+  
+}
+
+.button_text {   
+  margin: auto;
+  padding: 10px 30px;
+  text-decoration: none;  
+  color: #fff;    
+  background-color: #11f;
+  border-radius: 10px;  
+}
+
+.button_text:hover { 
+  background-color: #77f;
+}
+
+.button_text:active { 
+  background-color: #fff;
+}
+
+.show_basket {
+  text-align: center;
+}
+
